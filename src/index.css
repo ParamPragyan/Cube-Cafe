@@ -15,6 +15,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: black;
 }
 
 ul {
@@ -51,7 +52,7 @@ label {
 }
 
 .container {
-  max-width: 1310px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 50px;
 }
@@ -61,9 +62,11 @@ button {
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 600;
-  color: var(--color-white);
-  background-color: var(--color-primary);
+  color: black;
+  background-color: rgb(238, 255, 0);
+  
   border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -129,7 +132,7 @@ blockquote {
 }
 
 .special-word {
-  color: var(--color-primary);
+  color: yellow;
   font-weight: 700;
 }
 

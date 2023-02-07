@@ -44,11 +44,11 @@ const Navbar = () => {
                 Menu
               </NavLink>
             </li>
-            <li onClick={handleClick}>
+            {/* <li onClick={handleClick}>
               <NavLink className="nav-link" to="/delivery">
                 Delivery
               </NavLink>
-            </li>
+            </li> */}
             <li onClick={handleClick}>
               <NavLink className="nav-link" to="/about">
                 About

@@ -1,4 +1,4 @@
-.gallery {
+/* .gallery {
   display: grid;
   grid-template-rows: repeat(4, 15vw);
   grid-template-columns: repeat(5, 1fr);
@@ -58,4 +58,4 @@
 .gallery__item-10 {
   grid-row: 4 / -1;
   grid-column: 5 / -1;
-}
+} */

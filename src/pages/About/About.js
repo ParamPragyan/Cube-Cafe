@@ -4,7 +4,7 @@ import bgImage from "../../assets/burger.jpg";
 
 import AboutInfo from './AboutInfo/AboutInfo'
 import OurData from './OurData/OurData'
-import Gallery from './Gallery/Gallery'
+// import Gallery from './Gallery/Gallery'
 
 const About = () => {
   return (
@@ -16,7 +16,7 @@ const About = () => {
       />
       <AboutInfo />
       <OurData />
-      <Gallery />
+      {/* <Gallery /> */}
     </div>
   );
 };
