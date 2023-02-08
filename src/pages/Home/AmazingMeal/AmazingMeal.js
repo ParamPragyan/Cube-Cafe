@@ -52,7 +52,7 @@ const AmazingMeal = () => {
 
           <div className="amazing-content">
             <h2 className="heading-secondary">
-              Amazing meals <span className="ampersand">&#38;</span>
+              Amazing meals 
               <br />
               <span>
                 Great <br /> Entertainment
@@ -86,7 +86,7 @@ const AmazingMeal = () => {
 
             <div className="amazing-card-content">
               <div className="amazing-card-title">
-                <BsFillStarFill color="#c3512f" />
+                <BsFillStarFill color="#FFFF00" />
                 <h3 className="heading-tertiary">
                   the best <span>ingredients</span>
                 </h3>
@@ -104,7 +104,7 @@ const AmazingMeal = () => {
 
             <div className="amazing-card-content">
               <div className="amazing-card-title">
-                <BsFillStarFill color="#c3512f" />
+                <BsFillStarFill color="#FFFF00" />
                 <h3 className="heading-tertiary">
                   <span>reservations</span>
                 </h3>

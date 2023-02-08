@@ -7,9 +7,9 @@
 }
 
 :root {
-  --color-primary: #c3512f;
-  --color-secondary: #7c6853;
-  --color-tertiary: #342f29;
+  --color-primary: #ffee00;
+  --color-secondary: #b39e86;
+  --color-tertiary: #241c13;
   --color-white: #fff;
 }
 
@@ -74,11 +74,6 @@ button:hover {
   opacity: 0.9;
 }
 
-.ampersand {
-  font-family: 'Libre Baskerville', serif;
-  font-style: italic;
-  color: var(--color-primary);
-}
 
 blockquote {
   color: var(--color-secondary);
@@ -88,7 +83,7 @@ blockquote {
 
 .heading-primary {
   color: var(--color-white);
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 300;
   text-transform: uppercase;
   line-height: 1.1;

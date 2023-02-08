@@ -20,9 +20,15 @@
 .form-field textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    
     outline: none;
     font-size: 20px;
+    color: #ffea00;
+    background-color: black;
+    border-radius: 5px;
+    background: #212121;
+box-shadow: inset 5px 5px 9px #1b1b1b,
+            inset -5px -5px 9px #272727;
 }
 
 .form-field textarea {
