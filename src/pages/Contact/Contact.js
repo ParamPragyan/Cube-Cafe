@@ -3,7 +3,7 @@ import React from 'react'
 import HeroImage from "../../components/HeroImage/HeroImage";
 import bgImage from "../../assets/cheese2.jpg";
 
-import CantactForm from './CantactForm/CantactForm'
+import ContactForm from './ContactForm/ContactForm'
 
 const Contact = () => {
   return (
@@ -13,7 +13,7 @@ const Contact = () => {
         heading={["contact ", <span>us</span>]}
         text="Feel free to contact with us"
       />
-      <CantactForm />
+      <ContactForm />
     </div>
   )
 }

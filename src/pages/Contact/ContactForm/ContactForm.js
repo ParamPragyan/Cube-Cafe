@@ -1,5 +1,5 @@
 import React from 'react'
-import './CantactForm.css'
+import './ContactForm.css'
 
 import bgImage from '../../../assets/cake.jpg'
 
