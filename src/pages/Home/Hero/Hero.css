@@ -24,3 +24,9 @@
     color: yellow;
 
 }
+
+@media screen and (max-width: 768px) {
+    .hero-content {
+        top: 20%;
+    }
+}
