@@ -1,6 +1,8 @@
 .header {
     position: fixed;
-    width: 100%;
+    width: 95%;
+    padding-top: 1rem;
+    padding-left: 2rem;
     background-color: rgba(255, 255, 255, 0);
     z-index: 9999;
 }
@@ -18,8 +20,8 @@
 }
 
 .logo {
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
 }
 
 .nav-menu {
@@ -78,5 +80,9 @@
 
     .nav-menu .nav-link {
         font-size: 30px;
+    }
+
+    .header {
+        padding-left: 0;
     }
 }

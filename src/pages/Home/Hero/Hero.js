@@ -13,7 +13,7 @@ const Hero = () => {
             <p className='text-white'>The best Cafe and restaurant in the town</p>
 
             <p className='text-white'>
-                Book your Order <span className='special-word'>(+91)12345-67890</span>
+                Book your Order <span className='special-word'>(+91) 12345-67890</span>
             </p>
         </div>
     </div>

@@ -54,6 +54,7 @@ const Breakfast = () => {
               title={data.title}
               description={data.description}
               price={data.price}
+              key = {i}
             />
           ))}
         </div>
@@ -64,6 +65,7 @@ const Breakfast = () => {
               title={data.title}
               description={data.description}
               price={data.price}
+              key = {i}
             />
           ))}
         </div>

@@ -16,7 +16,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { BsFillStarFill } from "react-icons/bs";
 
 const AmazingMeal = () => {
-  const [items, setItems] = useState([
+  const [items] = useState([
     { id: 1, url: image1 },
     { id: 2, url: image2 },
     { id: 3, url: image3 },

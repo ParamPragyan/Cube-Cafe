@@ -65,6 +65,7 @@ const LunchTime = () => {
               title={data.title}
               description={data.description}
               price={data.price}
+              key = {i}
             />
           ))}
         </div>
@@ -75,6 +76,7 @@ const LunchTime = () => {
               title={data.title}
               description={data.description}
               price={data.price}
+              key = {i}
             />
           ))}
         </div>

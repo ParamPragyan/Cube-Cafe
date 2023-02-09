@@ -33,6 +33,7 @@ const MenuOfTheDay = () => {
             description={data.description}
             price={data.price}
             itemImage={data.img}
+            key ={i}
           />
         ))}
       </div>

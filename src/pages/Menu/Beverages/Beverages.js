@@ -71,10 +71,10 @@ const Beverages = () => {
           <div>
             {menuDataLeft.map((data, i) => (
               <ListItem
-                key={i}
                 title={data.title}
                 description={data.description}
                 price={data.price}
+                key={i}
               />
             ))}
           </div>
@@ -82,10 +82,10 @@ const Beverages = () => {
           <div>
             {menuDataMiddle.map((data, i) => (
               <ListItem
-                key={i}
                 title={data.title}
                 description={data.description}
                 price={data.price}
+                key={i}
               />
             ))}
           </div>
@@ -93,10 +93,10 @@ const Beverages = () => {
           <div>
             {menuDataRight.map((data, i) => (
               <ListItem
-                key={i}
                 title={data.title}
                 description={data.description}
                 price={data.price}
+                key={i}
               />
             ))}
           </div>

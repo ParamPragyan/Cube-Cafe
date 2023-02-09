@@ -11,6 +11,7 @@
 .hero-content {
     position: absolute;
     top: 40%;
+    left: 6rem;
 }
 
 .hero-content p {
@@ -28,5 +29,7 @@
 @media screen and (max-width: 768px) {
     .hero-content {
         top: 20%;
+        left: 1rem;
+        right: 1rem;
     }
 }

@@ -2,19 +2,13 @@ import React from "react";
 import HeroImage from "../../components/HeroImage/HeroImage";
 import bgImage from "../../assets/burger.jpg";
 
-import AboutInfo from './AboutInfo/AboutInfo'
-/// import Gallery from './Gallery/Gallery'
+import AboutInfo from "./AboutInfo/AboutInfo";
 
 const About = () => {
   return (
     <div>
-      <HeroImage
-        bgImage={bgImage}
-        heading={["about us "]}
-      />
+      <HeroImage bgImage={bgImage} heading={["about us "]} />
       <AboutInfo />
-      {/* <OurData /> */}
-      {/* <Gallery /> */}
     </div>
   );
 };

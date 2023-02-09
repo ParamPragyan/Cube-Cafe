@@ -44,11 +44,6 @@ const Navbar = () => {
                 Menu
               </NavLink>
             </li>
-            {/* <li onClick={handleClick}>
-              <NavLink className="nav-link" to="/delivery">
-                Delivery
-              </NavLink>
-            </li> */}
             <li onClick={handleClick}>
               <NavLink className="nav-link" to="/about">
                 About

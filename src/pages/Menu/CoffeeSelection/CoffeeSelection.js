@@ -61,6 +61,7 @@ const CoffeeSelection = () => {
               title={data.title}
               description={data.description}
               price={data.price}
+              key = {i}
             />
           ))}
         </div>
